@@ -34,8 +34,26 @@ h1, h2, h3 {
   }
 
 //Nav Styles
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color:#243B55;
+  }
+}
+
+
 .navbar{
   border:none;
+}
+
+.navbar-brand{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
 }
 
 .navbar-default .navbar-brand,
