@@ -20,7 +20,7 @@
           </button>
           <%= link_to root_path, class: "navbar-brand" do %>
             <i class = "fa fa-group"></i>
-            SoundCheck
+            DevMatch
           <% end %>
         </div>
         <div class = "collapse navbar-collapse" id="main-nav-collapse">
@@ -36,6 +36,13 @@
        <% flash.each do |type, msg| %>
           <%= content_tag :div, msg, class: "alert alert-#{type}" %>
       <% end %>
+      
+      
+
+      
+      
+
+
     </div>
     <%= yield %>
   </body>
